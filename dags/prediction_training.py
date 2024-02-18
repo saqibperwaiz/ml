@@ -11,10 +11,10 @@ from collecting_data import *
 from sklearn import preprocessing
 
 # Call the function to get X_np, y, and df
-X_np, y, df = data_sensor()
 
 
-def prediction_of_model():
+
+def prediction_of_model(X_np, y, df):
     print("iske andar aya brooo")
     # scaler = MinMaxScaler()
     # normalized_features = scaler.fit_transform(X_np)
@@ -35,7 +35,6 @@ def prediction_of_model():
         np.argmax(i) for i in predicted_normalized_features]
 
     print("evaluating model")
-
     print(model.evaluate(X_np, y))
 
     cm = tf.math.confusion_matrix(
@@ -85,4 +84,5 @@ def prediction_of_model():
 
 
 def main():
-    prediction_of_model()
+    X_np, y, df = data_sensor()
+    prediction_of_model(X_np, y, df)

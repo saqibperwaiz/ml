@@ -20,7 +20,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import normalize
 from sklearn.metrics import roc_curve, roc_auc_score
 import joblib
-
+from sklearn import preprocessing
 from sklearn.preprocessing import MinMaxScaler
 from collecting_data import *
 
@@ -41,7 +41,10 @@ def training_model():
 
     normalized_features[0]
 
-  
+    le = preprocessing.LabelEncoder()
+    le.fit(df.classification)
+    df['categorical_label'] = le.transform(df.classification)
+    df['categorical_label']
 
     y = df.categorical_label
 
@@ -73,7 +76,7 @@ def training_model():
     print(model.evaluate(X_test, y_test))
     joblib.dump(model, 'data/1st_iteration_NN_model_with_normalizedData.pkl')
 
-    return model, normalized_features, y
+    return model, normalized_features, y, le
 
 
 

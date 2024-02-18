@@ -12045,3 +12045,122 @@
 [2024-02-18T23:26:59.387+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:26:59.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-18T23:26:59.438+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:26:59.438+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
 [2024-02-18T23:26:59.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.282 seconds
+[2024-02-18T23:27:29.717+0000] {processor.py:161} INFO - Started process (PID=6041) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:27:29.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:27:29.727+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:27:29.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:27:29.770+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:27:29.812+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:27:29.812+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:27:29.856+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:27:29.855+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:27:29.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.190 seconds
+[2024-02-18T23:28:00.682+0000] {processor.py:161} INFO - Started process (PID=6062) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:00.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:28:00.692+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:00.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:00.815+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:00.871+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:00.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:28:00.923+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:00.922+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:28:00.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.304 seconds
+[2024-02-18T23:28:31.812+0000] {processor.py:161} INFO - Started process (PID=6083) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:31.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:28:31.821+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:31.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:31.916+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:28:32.020+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:32.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:28:32.149+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:28:32.148+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:28:32.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.450 seconds
+[2024-02-18T23:29:02.639+0000] {processor.py:161} INFO - Started process (PID=6103) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:02.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:29:02.649+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:02.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:02.765+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:02.854+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:02.853+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:29:02.928+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:02.927+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:29:03.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.387 seconds
+[2024-02-18T23:29:33.411+0000] {processor.py:161} INFO - Started process (PID=6124) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:33.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:29:33.423+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:33.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:33.532+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:29:33.694+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:33.693+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:29:33.828+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:29:33.827+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:29:33.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.518 seconds
+[2024-02-18T23:30:04.334+0000] {processor.py:161} INFO - Started process (PID=6146) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:04.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:30:04.339+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:04.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:04.378+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:04.428+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:04.428+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:30:04.668+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:04.666+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:30:04.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.537 seconds
+[2024-02-18T23:30:34.997+0000] {processor.py:161} INFO - Started process (PID=6169) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:34.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:30:35.000+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:35.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:35.039+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:30:35.075+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:35.075+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:30:35.114+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:30:35.113+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:30:35.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.174 seconds
+[2024-02-18T23:31:05.549+0000] {processor.py:161} INFO - Started process (PID=6189) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:05.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:31:05.557+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:05.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:05.682+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:05.838+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:05.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:31:05.957+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:05.953+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:31:06.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.522 seconds
+[2024-02-18T23:31:37.002+0000] {processor.py:161} INFO - Started process (PID=6210) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:37.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:31:37.016+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:37.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:37.146+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:31:37.257+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:37.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:31:37.373+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:31:37.372+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:31:37.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.506 seconds
+[2024-02-18T23:32:07.622+0000] {processor.py:161} INFO - Started process (PID=6231) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:07.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:32:07.627+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:07.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:07.680+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:07.741+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:07.741+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:32:07.804+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:07.804+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:32:07.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.238 seconds
+[2024-02-18T23:32:38.549+0000] {processor.py:161} INFO - Started process (PID=6252) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:38.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:32:38.555+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:38.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:38.596+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:32:38.648+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:38.648+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:32:38.709+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:32:38.709+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:32:38.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.213 seconds
+[2024-02-18T23:33:09.517+0000] {processor.py:161} INFO - Started process (PID=6273) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:09.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:33:09.527+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:09.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:09.636+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:09.731+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:09.730+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:33:09.839+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:09.838+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:33:09.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.395 seconds
+[2024-02-18T23:33:40.273+0000] {processor.py:161} INFO - Started process (PID=6295) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:40.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:33:40.286+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:40.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:40.380+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:33:40.494+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:40.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:33:40.608+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:33:40.607+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:33:40.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.448 seconds
+[2024-02-18T23:34:11.444+0000] {processor.py:161} INFO - Started process (PID=6317) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:11.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:34:11.448+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:11.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:11.497+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:11.573+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:11.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:34:11.643+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:11.642+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:34:11.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.275 seconds
+[2024-02-18T23:34:41.896+0000] {processor.py:161} INFO - Started process (PID=6339) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:41.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:34:41.903+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:41.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:41.962+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:34:42.016+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:42.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:34:42.064+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:34:42.063+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:34:42.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.209 seconds
+[2024-02-18T23:35:12.826+0000] {processor.py:161} INFO - Started process (PID=6361) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:12.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:35:12.836+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:12.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:12.925+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:13.030+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:13.030+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:35:13.086+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:13.086+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:35:13.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.316 seconds
+[2024-02-18T23:35:43.342+0000] {processor.py:161} INFO - Started process (PID=6382) to work on /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:43.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_min_s3.py for tasks to queue
+[2024-02-18T23:35:43.352+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:43.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:43.449+0000] {processor.py:840} INFO - DAG(s) 'dag_with_min_s3_v01' retrieved from /opt/airflow/dags/dag_with_min_s3.py
+[2024-02-18T23:35:43.582+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:43.581+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-18T23:35:43.715+0000] {logging_mixin.py:188} INFO - [2024-02-18T23:35:43.714+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_min_s3_v01 to 2024-02-18 00:00:00+00:00, run_after=2024-02-19 00:00:00+00:00
+[2024-02-18T23:35:43.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_min_s3.py took 0.501 seconds
