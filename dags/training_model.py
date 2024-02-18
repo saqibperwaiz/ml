@@ -20,29 +20,28 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import normalize
 from sklearn.metrics import roc_curve, roc_auc_score
 import joblib
-from sklearn import preprocessing
 
-from collecting_data import data_sensor
+from sklearn.preprocessing import MinMaxScaler
+from collecting_data import *
 
+# Call the function to get X_np, y, and df
+X_np, y, df = data_sensor()
 
 def training_model():
-    X_np, y, df = data_sensor()
+    
     print("X_np has been loaded")
     column_means = np.nanmean(X_np, axis=0)
     nan_indices = np.isnan(X_np)
     X_np[nan_indices] = np.take(column_means, np.where(nan_indices)[1])
 
-    from sklearn.preprocessing import MinMaxScaler
+    
 
     scaler = MinMaxScaler()
     normalized_features = scaler.fit_transform(X_np)
 
     normalized_features[0]
 
-    le = preprocessing.LabelEncoder()
-    le.fit(df.classification)
-    df['categorical_label'] = le.transform(df.classification)
-    df['categorical_label']
+  
 
     y = df.categorical_label
 
@@ -74,7 +73,8 @@ def training_model():
     print(model.evaluate(X_test, y_test))
     joblib.dump(model, 'data/1st_iteration_NN_model_with_normalizedData.pkl')
 
-    return model, normalized_features, y, le
+    return model, normalized_features, y
 
-def main():
-    training_model()
+
+
+training_model()

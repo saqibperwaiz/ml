@@ -7,7 +7,6 @@ import os
 def data_sensor():
 
     df = pd.read_csv('data\dataset_after_training.csv')
-    df
 
     df.columns
 
