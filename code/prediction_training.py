@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import datetime
 import os
-from collecting_data import *
+from code.collecting_data import *
 from sklearn import preprocessing
 
 # Call the function to get X_np, y, and df
