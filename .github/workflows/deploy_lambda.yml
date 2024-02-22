@@ -1,8 +1,8 @@
 name: CI for MWAA
-	on: 
-	  push:
-	    branches:
-	    - main
+on: 
+	push:
+	  branches:
+      - main
 	env:
 	  BUCKET_NAME : "dags-stock-trader"
 	  AWS_REGION : "US East (N. Virginia) us-east-1"
