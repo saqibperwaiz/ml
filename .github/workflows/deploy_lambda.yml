@@ -1,29 +1,22 @@
 name: CI for MWAA
-on: 
-	push:
-	  branches:
-      - main
-	env:
-	  BUCKET_NAME : "dags-stock-trader"
-	  AWS_REGION : "US East (N. Virginia) us-east-1"
-	
-	# permission can be added at job level or workflow level
-	permissions:
-	 id-token: write   # This is required for requesting the JWT
-	 contents: read    # This is required for actions/checkout
-	
-	jobs:
-	  deploy:
-	    runs-on: ubuntu-latest
-	    steps:
-	     - name: Git clone the repository
-	       uses: actions/checkout@main
-	     - name: configure aws credentials
-	       uses: aws-actions/configure-aws-credentials@v4
-	        with:
-	          role-to-assume: arn:aws:iam::1234567890:role/example-role
-	          aws-region: ${{ env.AWS_REGION }}
-	
-	      - name: Sync Airflow files to the MWAA S3 bucket with the AWS CLI
-	         run: |
-	           aws s3 sync . s3://${{ env.BUCKET_NAME }} --follow-symlinks --delete --exclude '.git/*'
+
+on:
+  push:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: AKIA54EE623THGDRSAAS
+          aws-secret-access-key: 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
+          aws-region: us-east-1
+
+      - name: Deploy to AWS S3
+        run: |
+          aws s3 sync . s3://dags-stock-trader --delete --follow-symlinks --delete --exclude '.git/*'
