@@ -19,4 +19,4 @@ jobs:
 
       - name: Deploy to AWS S3
         run: |
-          aws s3 sync . s3://dags-stock-trader --delete --follow-symlinks --delete --exclude '.git/*'
+          aws s3 sync . s3://dags-stock-trader --delete --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'README.md'
